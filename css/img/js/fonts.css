@@ -1,0 +1,61 @@
+.ft_swis{
+  font-family: 'swis721_th_btthin', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.ft_opensans{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.ft_opensans_b{
+  font-family: 'Open Sans Sb', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.ft_franklin{
+  font-family: 'Franklin Gothic Med Cond', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+  url(../fonts/open-s/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.html) format('woff2'),
+  url(../fonts/open-s/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans Sb';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+  url(../fonts/open-s/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.html) format('woff2'),
+  url(../fonts/open-s/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'swis721_th_btthin';
+  src: url('../fonts/swis/swz721t-webfont.eot');
+  src: url('../fonts/swis/swz721t-webfontd41d.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/swis/swz721t-webfont.html') format('woff2'),
+  url('../fonts/swis/swz721t-webfont.woff') format('woff'),
+  url('../fonts/swis/swz721t-webfont.ttf') format('truetype'),
+  url('../fonts/swis/swz721t-webfont.svg#swis721_th_btthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Franklin Gothic Med Cond';
+	src: url('../fonts/franklin-g/FRAMDCN0.eot');
+	src: local('Franklin Gothic Med Cond'),
+  url('../fonts/franklin-g/FRAMDCN0.woff') format('woff'),
+  url('../fonts/franklin-g/FRAMDCN0.ttf') format('truetype'),
+  url('../fonts/franklin-g/FRAMDCN0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

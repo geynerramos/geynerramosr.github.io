@@ -1,0 +1,95 @@
+body{
+  background-color: moccasin;
+  font-size: 14px;
+}
+body,button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal !important;
+}
+
+p{ font-size: 14px; }
+
+.row{
+  max-width: 66.25rem !important; /* 1060px */
+}
+
+button:hover, button:focus{
+  background-color: #429740;
+  color: #FFF !important;
+}
+
+table{ border: none; }
+table tr, table td{
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+a{ color: #424242; }
+a:focus{
+  color: #FFF;
+}
+#principal{
+	width: 900px;
+	height: auto; vertical-align: bottom;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+header{
+    display: inline
+	width: 900px;
+	height: 530px;
+	border: 0px solid #000;
+}
+
+#logo-sa{
+	width: 800px;
+	height: 0px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 15px;
+	font-size: 18px;
+    float: inherit;
+}
+
+.sub-titulo{
+margin-top: 80px;
+font-size: 15px;
+ float: left;
+}
+
+.menu{
+	width: 560px;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 40px;
+	background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
